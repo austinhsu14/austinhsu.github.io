@@ -81,12 +81,20 @@
 		 .img-2:hover{
 			 opacity: 20%;
 		 }
+		 .img-3{
+		 margin: auto;
+		 padding: 10px;
+		 width: 30%;
+		}
 		 #frontPageText{
 			 font-size: 30px;
 		 }
 
 		 .center-text {
 		 	text-align: center;
+		 }
+		 .center-text2 {
+			text-align: center;
 		 }
 		 .center-2>h1, .center-2>p{
 		 	text-align: center;
