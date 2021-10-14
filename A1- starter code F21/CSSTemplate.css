@@ -4,12 +4,66 @@
 	/*GLOBAL FONTS*/
 		 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 		 /*Styling for entire body*/
+		 @media screen and (min-width:1200px) {
+		 	body{
+				background-color: red;
+				font-family:  'Roboto', sans-serif;
+ 			 	font-size: 90%;
+
+			}
+			.center-mid-2{
+			 width: 940px;
+			 background-color: #efeae6;
+			 padding-bottom: 15px;
+			 padding-top: 5px;
+			}
+		 }
+		 @media screen and (min-width:960px) and (max-width:1199px) {
+		 	body{
+				background-color: green;
+				font-family:  'Arial', sans-serif;
+ 			 	font-size: 80%;
+			}
+			.center-mid-2{
+			 width: 940px;
+			 background-color: #efeae6;
+			 padding-bottom: 15px;
+			 padding-top: 5px;
+			}
+		 }
+		 @media screen and (min-width:600px) and (max-width:959px) {
+		 	body{
+				background-color: blue;
+				font-family:  'Times New Roman', sans-serif;
+ 			 	font-size: 70%;
+				width: 400px;
+			}
+			.center-mid-2{
+			 width: 720px;
+			 background-color: white;
+			 padding-bottom: 15px;
+			 padding-top: 5px;
+			}
+			.center-text {
+			 width: 655px;
+			}
+			p {
+				width: 710px;
+				text-align: center;
+			}
+			div h1 {
+				width: 710px;
+				text-align: center;
+			}
+		 }
+		 /*
 		 body {
 			 font-family:  'Roboto', sans-serif;
 			 font-size: 90%;
 			 color: #666;
-			 background-color: #016a86;
 		 }
+		 */
+
 		 h1.center-text
 		 {
 			 font-family: 'Roboto', serif;
@@ -43,12 +97,6 @@
 		 .center-mid-1{
 		 	width: 940px;
 		 	background-color: #BEB594;
-		 	padding-bottom: 15px;
-		 	padding-top: 5px;
-		 }
-		 .center-mid-2{
-		 	width: 940px;
-		 	background-color: #efeae6;
 		 	padding-bottom: 15px;
 		 	padding-top: 5px;
 		 }

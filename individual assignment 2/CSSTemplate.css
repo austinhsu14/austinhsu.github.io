@@ -1,0 +1,338 @@
+/*code for large screens*/
+@media screen and (min-width:1024px) {
+	/*font color and font*/
+	*{
+  	font-family:  'Roboto', serif;
+  	font-size: 100%;
+  	color: white;
+  	background-color: inherit;
+  }
+
+	/*left and right margins for a cut off width for the page*/
+  html, body{
+  	margin-top:0px;
+  	margin-left: 6.75%;
+  	margin-right: 6.75%;
+  	background-color: #F68D43;
+  	height: 100%;
+  }
+
+	/*color of the page*/
+  .page{
+  	background-color: #F6AD43;
+  	height: inherit;
+  }
+
+	/*main menu at the top centered*/
+  .main-menu{
+  	text-align: center;
+  	background-color: #F6AD43;
+  	margin-top: 0px;
+  	margin-bottom: 0px;
+  }
+
+	/*code for the menu list*/
+  ol li {
+  	display: inline;
+  	padding-left: 1.5625%;
+  	padding-right: 1.5625%;
+  	padding-top: 1.5625%;
+  	text-align: center;
+  	background-color: inherit;
+  }
+
+	/*taking out underlines*/
+	a:link, a:visited, a:active{
+	text-decoration: none;
+	color: #6A2C00;
+	}
+
+	/*taking out image padding*/
+  li img{
+  	display: inline;
+  	padding-left: 0px;
+
+  }
+	/*code to standardize all 3 columns*/
+  .column{
+  	padding:0px;
+  	padding-left: 0px;
+  	margin-left: 0px;
+  	width: 33.33%;
+  	float:left;
+  	list-style: none;
+		height: inherit;
+  }
+
+	/*code for each image used*/
+  .img-1{
+  	margin-left: 10px;
+		margin-right: 10px;
+  	padding-left: 0px;
+  	width: 95%;
+  }
+
+	/*code for text under images*/
+	p{
+		margin-left: 10px;
+		margin-right: 10px;
+		font-family: 'Rubik', sans-serif;
+	}
+
+	/*code for headers*/
+	h1{
+		margin-left: 10px;
+		margin-right: 10px;
+		color: #6A2C00;
+		font-size: 110%;
+	}
+
+	/*code for large screen*/
+  .largeContainer{
+		display: table;
+  	height: inherit;
+  	background-color: #F6AD43;
+  }
+
+	/*code for columns*/
+  .container1{
+		display: table-row;
+		height: 70%;
+  }
+
+	/*code for smaller paragraphs*/
+	.container2{
+		display: table-row;
+		height: 30%;
+	}
+
+	/*code for large screens*/
+  .lower1{
+  	padding: 0px;
+  }
+}
+
+/*code for medium sized screens*/
+@media screen and (min-width:768px) and (max-width:1023px) {
+/*code for all font and text color*/
+	 *{
+	 	font-family:  'Roboto', sans-serif;
+	 	font-size: 100%;
+	 	color: white;
+	 	background-color: inherit;
+	 }
+
+/*code for body and background*/
+	 html, body{
+	 	margin-top:0px;
+	 	background-color: #F68D43;
+	 	height: 100%;
+	 }
+
+/*code for whole page*/
+	 .page{
+	 	background-color: #F6AD43;
+	 	height: inherit;
+	 }
+
+/*code for main menu at the top*/
+	 .main-menu{
+	 	text-align: center;
+	 	background-color: #F6AD43;
+	 	margin-top: 0px;
+	 	margin-bottom: 0px;
+	 }
+
+/*code for menu links*/
+	 ol li {
+	 	display: inline;
+	 	padding-left: 1.5625%;
+	 	padding-right: 1.5625%;
+	 	padding-top: 1.5625%;
+	 	text-align: center;
+	 	background-color: inherit;
+	 }
+
+/*code for links*/
+	 a:link, a:visited, a:active{
+	 text-decoration: none;
+	 color: #6A2C00;
+	 }
+
+/*code for taking out image padding*/
+	 li img{
+	 	display: inline;
+	 	padding-left: 0px;
+
+	 }
+
+/*code for each column*/
+	 .column{
+	 	padding:0px;
+	 	padding-left: 0px;
+	 	margin-left: 0px;
+	 	width: 33.33%;
+	 	float:left;
+	 	list-style: none;
+		height: inherit;
+	 }
+
+/*code for all images*/
+	 .img-1{
+		margin-left: 10px;
+		margin-right: 10px;
+	 	padding-left: 0px;
+	 	width: 95%;
+	 }
+
+/*code for whole container*/
+	 .largeContainer{
+		 display: table;
+	 	height: inherit;
+	 	background-color: #F6AD43;
+	 }
+
+/*code for large container*/
+	 .container1{
+		 display: table-row;
+		 height: 75%;
+	 }
+
+/*code for smaller container*/
+	 .container2{
+		 display: table-row;
+		 height: 25%;
+	 }
+
+/*code for paragraph*/
+	 p{
+		 margin-left: 10px;
+		 margin-right: 10px;
+		 font-family: 'Rubik', sans-serif;
+	 }
+
+/*code for headers*/
+	 h1{
+		 margin-left: 10px;
+		 margin-right: 10px;
+		 color: #6A2C00;
+		 font-size: 110%;
+	 }
+
+/*code for paragraph under columns*/
+	 .lower1{
+	 	padding: 0px;
+	 }
+}
+
+/*code for small sized screens*/
+@media screen and (min-width:425px) and (max-width:767px) {
+/*code for all font and background*/
+	*{
+ 	font-family:  'Roboto', sans-serif;
+ 	font-size: 100%;
+ 	color: white;
+ 	background-color: inherit;
+  }
+
+/*code for whole body*/
+  html, body{
+ 	margin-top:0px;
+ 	background-color: #F68D43;
+ 	height: 100%;
+  }
+
+/*code for whole page*/
+  .page{
+ 	background-color: #F6AD43;
+ 	height: inherit;
+  }
+
+/*code for whole main menu*/
+  .main-menu{
+ 	text-align: center;
+ 	background-color: #F6AD43;
+ 	margin-top: 0px;
+ 	margin-bottom: 0px;
+  }
+
+/*code for list in menu*/
+  ol li {
+ 	display: inline;
+ 	padding-left: 1.5625%;
+ 	padding-right: 1.5625%;
+ 	padding-top: 1.5625%;
+ 	text-align: center;
+ 	background-color: inherit;
+  }
+
+/*code for links*/
+	a:link, a:visited, a:active{
+	text-decoration: none;
+	color: #6A2C00;
+	}
+
+/*code for taking out padding*/
+  li img{
+ 	display: inline;
+ 	padding-left: 0px;
+  }
+
+/*code for columns*/
+  .column{
+ 	padding: 0px;
+ 	padding-left: 0px;
+ 	margin-left: 0px;
+ 	width: 100%;
+ 	float:left;
+ 	list-style: none;
+	height: inherit;
+  }
+
+/*code for images*/
+  .img-1{
+	margin-left: 10px;
+	margin-right: 10px;
+ 	padding-left: 0px;
+ 	width: 80%;
+  }
+
+/*code for overall container*/
+  .largeContainer{
+		display: table;
+ 	height: inherit;
+ 	background-color: #F6AD43;
+  }
+
+/*code for larger container*/
+  .container1{
+		display: table-row;
+		height: 50%;
+  }
+
+	/*code for smaller container*/
+	.container2{
+		display: table-row;
+		height: 50%;
+	}
+
+	/*code for paragraphs*/
+	p{
+		margin-left: 10px;
+		margin-right: 10px;
+		font-family: 'Rubik', sans-serif;
+	}
+
+	/*code for header*/
+	h1{
+		margin-left: 10px;
+		margin-right: 10px;
+		color: #6A2C00;
+		font-size: 110%;
+	}
+
+/*code for section under columns*/
+  .lower1{
+ 	padding: 0px;
+  }
+}
